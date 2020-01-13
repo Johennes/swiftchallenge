@@ -32,7 +32,7 @@ SwiftChallenge is licensed under the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
 
-  [let me know]: mailto://n0-0ne+swiftchallenge@mailbox.org
+  [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
   [Anagram]: Strings/Anagram
   [Reverse]: Strings/Reverse
   [SynchronousDispatch]: Concurrency/SynchronousDispatch
