@@ -1,0 +1,22 @@
+#!/bin/bash
+
+root=$(git rev-parse --show-toplevel)
+
+function process_directory {
+    local dir=$1
+    local level=$2
+
+    while read -r subdir; do
+        if [[ -f "$subdir/Package.swift" ]]; then
+            echo "- [$(basename "$subdir")](${subdir/.\//})"
+            continue
+        fi
+
+        echo "$(yes '#' | head -n $level | tr -d '\n') $(basename "$subdir")"
+        echo
+        process_directory "$subdir" $((level + 1))
+        echo
+    done < <(find "$1" -type d -mindepth 1 -maxdepth 1 -not -name "*.*")
+}
+
+process_directory "$root" 3

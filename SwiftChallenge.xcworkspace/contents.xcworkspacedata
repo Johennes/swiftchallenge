@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:Concurrency"
+      name = "Concurrency">
+      <FileRef
+         location = "group:SynchronousDispatch">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:Strings"
+      name = "Strings">
+      <FileRef
+         location = "group:Anagram">
+      </FileRef>
+      <FileRef
+         location = "group:Reverse">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:build-index"
+      assignedFileDataType = "public.bash-script">
+   </FileRef>
+   <FileRef
+      location = "group:COPYING">
+   </FileRef>
+   <FileRef
+      location = "group:normalize-readmes"
+      assignedFileDataType = "public.bash-script">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+root=$(git rev-parse --show-toplevel)
+
+while read -r file; do
+    echo "Normalizing $file"
+    pandoc \
+        -f markdown \
+        -t markdown \
+        --reference-links \
+        --columns 80 \
+        "$file" > "$file.tmp"
+    mv "$file.tmp" "$file"
+done < <(find "$root" -name "README.md")
