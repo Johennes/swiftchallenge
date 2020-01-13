@@ -18,6 +18,19 @@ func challenge(_ i: Int) -> Int {
 }
 ```
 
+Write a function `solution` that produces the same result for arbitrary input
+without using asynchronous blocks.
+
+``` {.swift}
+func solution(_ i: Int) -> Int {
+    // ?
+}
+
+solution(0) == challenge(0) // true
+solution(1) == challenge(1) // true
+solution(2) == challenge(2) // true
+```
+
 Further Instructions
 --------------------
 
