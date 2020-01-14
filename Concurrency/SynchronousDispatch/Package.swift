@@ -5,11 +5,17 @@ import PackageDescription
 let package = Package(
     name: "SynchronousDispatch",
     products: [
-        .library(name: "SynchronousDispatch", targets: ["SynchronousDispatch"])
+        .library(
+            name: "SynchronousDispatch",
+            targets: ["SynchronousDispatch"])
     ],
     dependencies: [],
     targets: [
-        .target(name: "SynchronousDispatch", dependencies: []),
-        .testTarget(name: "SynchronousDispatchTests", dependencies: ["SynchronousDispatch"])
+        .target(
+            name: "SynchronousDispatch",
+            dependencies: []),
+        .testTarget(
+            name: "SynchronousDispatchTests",
+            dependencies: ["SynchronousDispatch"])
     ]
 )
