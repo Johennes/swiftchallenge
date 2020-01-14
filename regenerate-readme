@@ -1,0 +1,16 @@
+#!/bin/bash
+
+root=$(git rev-parse --show-toplevel)
+
+"$root/build-index" > "$root/README.md.index"
+
+pandoc \
+    -f markdown \
+    -t markdown \
+    --reference-links \
+    --columns 80 \
+    "$root/README.md.header" \
+    "$root/README.md.index" \
+    "$root/README.md.footer" > "$root/README.md"
+
+rm "$root/README.md.index"

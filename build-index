@@ -8,7 +8,7 @@ function process_directory {
 
     while read -r subdir; do
         if [[ -f "$subdir/Package.swift" ]]; then
-            echo "- [$(basename "$subdir")](${subdir/.\//})"
+            echo "- [$(basename "$subdir")](${subdir/$root\///})"
             continue
         fi
 
@@ -19,4 +19,7 @@ function process_directory {
     done < <(find "$1" -type d -mindepth 1 -maxdepth 1 -not -name "*.*")
 }
 
+echo "Challenges"
+echo "----------"
+echo
 process_directory "$root" 3

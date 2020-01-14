@@ -37,6 +37,18 @@
       assignedFileDataType = "public.bash-script">
    </FileRef>
    <FileRef
+      location = "group:regenerate-readme"
+      assignedFileDataType = "public.bash-script">
+   </FileRef>
+   <FileRef
       location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/jmarbach/challenge/README.md.header"
+      assignedFileDataType = "net.daringfireball.markdown">
+   </FileRef>
+   <FileRef
+      location = "group:README.md.footer"
+      assignedFileDataType = "net.daringfireball.markdown">
    </FileRef>
 </Workspace>
