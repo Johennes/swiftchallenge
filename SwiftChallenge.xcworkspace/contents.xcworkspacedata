@@ -9,6 +9,13 @@
       </FileRef>
    </Group>
    <Group
+      location = "container:Protocols &amp; Subclasses"
+      name = "Protocols &amp; Subclasses">
+      <FileRef
+         location = "group:ProtocolDispatch">
+      </FileRef>
+   </Group>
+   <Group
       location = "container:Strings"
       name = "Strings">
       <FileRef
