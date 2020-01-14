@@ -8,7 +8,7 @@ function process_directory {
 
     while read -r subdir; do
         if [[ -f "$subdir/Package.swift" ]]; then
-            echo "- [$(basename "$subdir")](${subdir/$root\///})"
+            echo "- [$(basename "$subdir")](${subdir/$root\//})"
             continue
         fi
 
