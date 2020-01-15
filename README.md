@@ -11,7 +11,7 @@ Check out the index of challenges below or simply browse the folders in the
 repository.
 
 Most of all, have fun and [let me know] about ideas for further challenges to be
-added.
+added. Currently unimplemented ideas are tracked in [IDEAS.md].
 
 Challenges
 ----------
@@ -41,6 +41,7 @@ the Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
 
   [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
+  [IDEAS.md]: IDEAS.md
   [Anagram]: Strings/Anagram
   [Reverse]: Strings/Reverse
   [ProtocolDispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
