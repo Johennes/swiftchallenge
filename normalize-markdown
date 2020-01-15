@@ -11,4 +11,4 @@ while read -r file; do
         --columns 80 \
         "$file" > "$file.tmp"
     mv "$file.tmp" "$file"
-done < <(find "$root" -name "README.md*")
+done < <(find "$root" -name "*.md*")

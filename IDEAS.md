@@ -1,0 +1,4 @@
+Ideas for Further Challenges
+============================
+
+-   ?

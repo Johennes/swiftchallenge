@@ -40,7 +40,7 @@
       location = "group:COPYING">
    </FileRef>
    <FileRef
-      location = "group:normalize-readmes"
+      location = "group:normalize-markdown"
       assignedFileDataType = "public.bash-script">
    </FileRef>
    <FileRef
@@ -49,6 +49,9 @@
    </FileRef>
    <FileRef
       location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:IDEAS.md">
    </FileRef>
    <FileRef
       location = "group:/Users/jmarbach/challenge/README.md.header"
