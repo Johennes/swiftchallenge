@@ -9,6 +9,13 @@
       </FileRef>
    </Group>
    <Group
+      location = "container:JSON"
+      name = "JSON">
+      <FileRef
+         location = "group:LenientArrayDecode">
+      </FileRef>
+   </Group>
+   <Group
       location = "container:Protocols &amp; Subclasses"
       name = "Protocols &amp; Subclasses">
       <FileRef

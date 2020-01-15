@@ -29,6 +29,10 @@ Challenges
 
 -   [SynchronousDispatch]
 
+### JSON
+
+-   [LenientArrayDecode]
+
 License
 -------
 
@@ -41,3 +45,4 @@ option) any later version.
   [Reverse]: Strings/Reverse
   [ProtocolDispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
   [SynchronousDispatch]: Concurrency/SynchronousDispatch
+  [LenientArrayDecode]: JSON/LenientArrayDecode
