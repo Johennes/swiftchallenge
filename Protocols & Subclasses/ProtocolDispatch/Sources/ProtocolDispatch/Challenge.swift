@@ -1,3 +1,5 @@
+import Foundation
+
 // MARK: - Types
 
 protocol P {

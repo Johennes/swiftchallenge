@@ -1,3 +1,5 @@
+import Foundation
+
 // MARK: - One-Liner
 
 // Relying on the standard library function for reversing a string, all we have

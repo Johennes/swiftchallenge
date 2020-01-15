@@ -1,3 +1,5 @@
+import Foundation
+
 // MARK: - General Notes
 
 // The key to identifying an anagram is to check whether the characters and

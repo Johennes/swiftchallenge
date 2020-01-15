@@ -1,3 +1,5 @@
+import Foundation
+
 // MARK: - Challenge 1
 
 // The challenge function accesses the methods a and b using a variable typed
