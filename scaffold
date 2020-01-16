@@ -1,0 +1,133 @@
+#!/bin/bash
+
+root=$(git rev-parse --show-toplevel)
+
+if [[ -z "$1" ]]; then
+    echo "Error: Missing destination"
+    exit 1
+fi
+
+dest=$root/$1
+name=$(basename "$dest")
+
+if [[ -d "$dest" ]]; then
+    echo "Error: Destination $dest already exists"
+    exit 1
+fi
+
+# Folders
+mkdir -p "$dest/Sources/$name"
+mkdir -p "$dest/Tests/${name}Tests"
+
+# README.md
+cat << EOM > "$dest/README.md"
+$name
+=======
+
+Difficulty: ?
+
+Problem Statement
+-----------------
+
+?
+
+Further Instructions
+--------------------
+
+To start working on this challenge open [Challenge.swift] and uncomment the code
+skeleton.
+
+To run unit tests that validate your code, uncomment the test method in
+[ChallengeTests.swift] and hit \`CMD + U\`.
+
+To view selected solutions open [Solutions.swift].
+
+  [Challenge.swift]: Sources/$name/Challenge.swift
+  [ChallengeTests.swift]: Tests/${name}Tests/ChallengeTests.swift
+  [Solutions.swift]: Sources/$name/Solutions.swift
+EOM
+
+# Package.swift
+cat << EOM > "$dest/Package.swift"
+// swift-tools-version:5.1
+
+import PackageDescription
+
+let package = Package(
+    name: "$name",
+    products: [
+        .library(
+            name: "$name",
+            targets: ["$name"])
+    ],
+    dependencies: [],
+    targets: [
+        .target(
+            name: "$name",
+            dependencies: []),
+        .testTarget(
+            name: "${name}Tests",
+            dependencies: ["$name"])
+    ]
+)
+EOM
+
+# Challenge.swift
+cat << EOM > "$dest/Sources/$name/Challenge.swift"
+import Foundation
+
+//func solution() {
+//    <#T##Insert code#>
+//}
+EOM
+
+# Solutions.swift
+cat << EOM > "$dest/Sources/$name/Solutions.swift"
+import Foundation
+
+// MARK: - General Notes
+
+// ?
+
+// MARK: - ?
+
+// ?
+
+func solution_?() -> ? {
+    ?
+}
+EOM
+
+# ChallengeTests.swift
+cat << EOM > "$dest/Tests/${name}Tests/ChallengeTests.swift"
+import Foundation
+import XCTest
+@testable import $name
+
+class ChallengeTests: XCTestCase {
+
+//    func test() {
+//        runTest(solution)
+//    }
+
+}
+
+func runTest(_ method: () -> Void) {
+    XCTAssert(?)
+}
+EOM
+
+# SolutionTests.swift
+cat << EOM > "$dest/Tests/${name}Tests/SolutionTests.swift"
+import Foundation
+import XCTest
+@testable import $name
+
+final class SolutionTests: XCTestCase {
+
+    func test_?() {
+        runTest(solution_?)
+    }
+
+}
+EOM

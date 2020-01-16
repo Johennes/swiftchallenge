@@ -31,6 +31,9 @@
       <FileRef
          location = "group:Reverse">
       </FileRef>
+      <FileRef
+         location = "group:VersionSort">
+      </FileRef>
    </Group>
    <FileRef
       location = "group:build-index"
@@ -60,5 +63,9 @@
    <FileRef
       location = "group:README.md.footer"
       assignedFileDataType = "net.daringfireball.markdown">
+   </FileRef>
+   <FileRef
+      location = "group:scaffold"
+      assignedFileDataType = "public.bash-script">
    </FileRef>
 </Workspace>
