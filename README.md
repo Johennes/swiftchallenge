@@ -32,6 +32,8 @@ Challenges by Category
 
 ### JSON
 
+-   [HeterogeneousDateDecoding]
+-   [DateDecoding]
 -   [LenientArrayDecode]
 
 Challenges by Difficulty
@@ -40,6 +42,8 @@ Challenges by Difficulty
 ### Easy
 
 -   [Anagram]
+-   [DateDecoding]
+-   [HeterogeneousDateDecoding]
 -   [Reverse]
 
 ### Medium
@@ -67,4 +71,6 @@ option) any later version.
   [VersionSort]: Strings/VersionSort
   [ProtocolDispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
   [SynchronousDispatch]: Concurrency/SynchronousDispatch
+  [HeterogeneousDateDecoding]: JSON/HeterogeneousDateDecoding
+  [DateDecoding]: JSON/DateDecoding
   [LenientArrayDecode]: JSON/LenientArrayDecode

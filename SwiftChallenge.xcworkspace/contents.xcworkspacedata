@@ -12,6 +12,12 @@
       location = "container:JSON"
       name = "JSON">
       <FileRef
+         location = "group:/Users/jmarbach/challenge/JSON/DateDecoding">
+      </FileRef>
+      <FileRef
+         location = "group:HeterogeneousDateDecoding">
+      </FileRef>
+      <FileRef
          location = "group:LenientArrayDecode">
       </FileRef>
    </Group>
