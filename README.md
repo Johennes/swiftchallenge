@@ -13,8 +13,8 @@ repository.
 Most of all, have fun and [let me know] about ideas for further challenges to be
 added. Currently unimplemented ideas are tracked in [IDEAS.md].
 
-Challenges
-----------
+Challenges by Category
+----------------------
 
 ### Strings
 
@@ -33,6 +33,25 @@ Challenges
 ### JSON
 
 -   [LenientArrayDecode]
+
+Challenges by Difficulty
+------------------------
+
+### Easy
+
+-   [Anagram]
+-   [Reverse]
+
+### Medium
+
+-   [LenientArrayDecode]
+-   [ProtocolDispatch]
+-   [SynchronousDispatch]
+-   [VersionSort]
+
+### Hard
+
+None yet
 
 License
 -------
