@@ -21,7 +21,7 @@ mkdir -p "$dest/Tests/${name}Tests"
 
 # README.md
 cat << EOM > "$dest/README.md"
-$name
+$(echo "$name" | "$root/prettify")
 =======
 
 Difficulty: ?

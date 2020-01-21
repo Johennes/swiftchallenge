@@ -20,21 +20,21 @@ Challenges by Category
 
 -   [Anagram]
 -   [Reverse]
--   [VersionSort]
+-   [Version Sort]
 
 ### Protocols & Subclasses
 
--   [ProtocolDispatch]
+-   [Protocol Dispatch]
 
 ### Concurrency
 
--   [SynchronousDispatch]
+-   [Synchronous Dispatch]
 
 ### JSON
 
--   [HeterogeneousDateDecoding]
--   [DateDecoding]
--   [LenientArrayDecoding]
+-   [Heterogeneous Date Decoding]
+-   [Date Decoding]
+-   [Lenient Array Decoding]
 
 Challenges by Difficulty
 ------------------------
@@ -42,16 +42,16 @@ Challenges by Difficulty
 ### Easy
 
 -   [Anagram]
--   [DateDecoding]
+-   [Date Decoding]
 -   [Reverse]
 
 ### Medium
 
--   [HeterogeneousDateDecoding]
--   [LenientArrayDecoding]
--   [ProtocolDispatch]
--   [SynchronousDispatch]
--   [VersionSort]
+-   [Heterogeneous Date Decoding]
+-   [Lenient Array Decoding]
+-   [Protocol Dispatch]
+-   [Synchronous Dispatch]
+-   [Version Sort]
 
 ### Hard
 
@@ -68,9 +68,9 @@ option) any later version.
   [IDEAS.md]: IDEAS.md
   [Anagram]: Strings/Anagram
   [Reverse]: Strings/Reverse
-  [VersionSort]: Strings/VersionSort
-  [ProtocolDispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
-  [SynchronousDispatch]: Concurrency/SynchronousDispatch
-  [HeterogeneousDateDecoding]: JSON/HeterogeneousDateDecoding
-  [DateDecoding]: JSON/DateDecoding
-  [LenientArrayDecoding]: JSON/LenientArrayDecoding
+  [Version Sort]: Strings/VersionSort
+  [Protocol Dispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
+  [Synchronous Dispatch]: Concurrency/SynchronousDispatch
+  [Heterogeneous Date Decoding]: JSON/HeterogeneousDateDecoding
+  [Date Decoding]: JSON/DateDecoding
+  [Lenient Array Decoding]: JSON/LenientArrayDecoding

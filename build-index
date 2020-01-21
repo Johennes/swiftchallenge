@@ -8,7 +8,8 @@ function collect_challenges_by_category {
 
     while read -r subdir; do
         if [[ -f "$subdir/Package.swift" ]]; then
-            echo "- [$(basename "$subdir")](${subdir/$root\//})"
+            name=$(basename "$subdir" | "$root/prettify")
+            echo "- [$name](${subdir/$root\//})"
             continue
         fi
 
@@ -28,7 +29,8 @@ function collect_challenges_by_difficulty {
         subdir=$(dirname "$package")
         readme=$subdir/README.md
         if grep -q "Difficulty: $difficulty" "$readme"; then
-            lines=$lines"\n- [$(basename "$subdir")](${subdir/$root\//})"
+            name=$(basename "$subdir" | "$root/prettify")
+            lines=$lines"\n- [$name](${subdir/$root\//})"
         fi
     done < <(find "$dir" -name "Package.swift")
     echo -e "${lines:-\nNone yet}" | sort
