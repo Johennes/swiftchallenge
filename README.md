@@ -34,7 +34,7 @@ Challenges by Category
 
 -   [HeterogeneousDateDecoding]
 -   [DateDecoding]
--   [LenientArrayDecode]
+-   [LenientArrayDecoding]
 
 Challenges by Difficulty
 ------------------------
@@ -48,7 +48,7 @@ Challenges by Difficulty
 
 ### Medium
 
--   [LenientArrayDecode]
+-   [LenientArrayDecoding]
 -   [ProtocolDispatch]
 -   [SynchronousDispatch]
 -   [VersionSort]
@@ -73,4 +73,4 @@ option) any later version.
   [SynchronousDispatch]: Concurrency/SynchronousDispatch
   [HeterogeneousDateDecoding]: JSON/HeterogeneousDateDecoding
   [DateDecoding]: JSON/DateDecoding
-  [LenientArrayDecode]: JSON/LenientArrayDecode
+  [LenientArrayDecoding]: JSON/LenientArrayDecoding

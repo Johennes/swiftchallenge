@@ -1,4 +1,4 @@
-Lenient Array Decode
+Lenient Array Decoding
 ====================
 
 Difficulty: medium
@@ -36,6 +36,6 @@ To run unit tests that validate your code, uncomment the test method in
 
 To view selected solutions open [Solutions.swift].
 
-  [Challenge.swift]: Sources/LenientArrayDecode/Challenge.swift
-  [ChallengeTests.swift]: Tests/LenientArrayDecodeTests/ChallengeTests.swift
-  [Solutions.swift]: Sources/LenientArrayDecode/Solutions.swift
+  [Challenge.swift]: Sources/LenientArrayDecoding/Challenge.swift
+  [ChallengeTests.swift]: Tests/LenientArrayDecodingTests/ChallengeTests.swift
+  [Solutions.swift]: Sources/LenientArrayDecoding/Solutions.swift

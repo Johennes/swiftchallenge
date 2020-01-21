@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import LenientArrayDecode
+@testable import LenientArrayDecoding
 
 class ChallengeTests: XCTestCase {
 
