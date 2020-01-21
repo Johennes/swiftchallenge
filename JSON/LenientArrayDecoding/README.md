@@ -1,5 +1,5 @@
 Lenient Array Decoding
-====================
+======================
 
 Difficulty: medium
 
