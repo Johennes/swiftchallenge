@@ -55,6 +55,6 @@ To run unit tests that validate your code, uncomment the test method in
 To view selected solutions open [Solutions.swift].
 
   [Epoch time]: https://en.wikipedia.org/wiki/Unix_time
-  [Challenge.swift]: Sources/DateDecoding/Challenge.swift
-  [ChallengeTests.swift]: Tests/DateDecodingTests/ChallengeTests.swift
-  [Solutions.swift]: Sources/DateDecoding/Solutions.swift
+  [Challenge.swift]: Sources/HeterogeneousDateDecoding/Challenge.swift
+  [ChallengeTests.swift]: Tests/HeterogeneousDateDecodingTests/ChallengeTests.swift
+  [Solutions.swift]: Sources/HeterogeneousDateDecoding/Solutions.swift
