@@ -20,6 +20,7 @@ Challenges
 
 -   [Anagram]
 -   [Reverse]
+-   [VersionSort]
 
 ### Protocols & Subclasses
 
@@ -44,6 +45,7 @@ option) any later version.
   [IDEAS.md]: IDEAS.md
   [Anagram]: Strings/Anagram
   [Reverse]: Strings/Reverse
+  [VersionSort]: Strings/VersionSort
   [ProtocolDispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
   [SynchronousDispatch]: Concurrency/SynchronousDispatch
   [LenientArrayDecode]: JSON/LenientArrayDecode
