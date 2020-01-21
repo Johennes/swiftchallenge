@@ -43,11 +43,11 @@ Challenges by Difficulty
 
 -   [Anagram]
 -   [DateDecoding]
--   [HeterogeneousDateDecoding]
 -   [Reverse]
 
 ### Medium
 
+-   [HeterogeneousDateDecoding]
 -   [LenientArrayDecoding]
 -   [ProtocolDispatch]
 -   [SynchronousDispatch]

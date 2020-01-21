@@ -1,7 +1,7 @@
 Heterogeneous Date Decoding
 ===========================
 
-Difficulty: easy
+Difficulty: medium
 
 Problem Statement
 -----------------
