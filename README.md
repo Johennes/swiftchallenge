@@ -1,5 +1,22 @@
+-   [SwiftChallenge]
+    -   [About]
+    -   [Challenges by Category]
+        -   [Strings]
+        -   [Protocols & Subclasses]
+        -   [Concurrency]
+        -   [JSON]
+        -   [Combinatorics]
+    -   [Challenges by Difficulty]
+        -   [Easy]
+        -   [Medium]
+        -   [Hard]
+    -   [License]
+
 SwiftChallenge
 ==============
+
+About
+-----
 
 This is a collection of Swift coding excercises meant to be used for training
 and interviewing. Each challenge is contained in its own Swift package and
@@ -68,6 +85,19 @@ SwiftChallenge is licensed under the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
 
+  [SwiftChallenge]: #swiftchallenge
+  [About]: #about
+  [Challenges by Category]: #challenges-by-category
+  [Strings]: #strings
+  [Protocols & Subclasses]: #protocols-subclasses
+  [Concurrency]: #concurrency
+  [JSON]: #json
+  [Combinatorics]: #combinatorics
+  [Challenges by Difficulty]: #challenges-by-difficulty
+  [Easy]: #easy
+  [Medium]: #medium
+  [Hard]: #hard
+  [License]: #license
   [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
   [IDEAS.md]: IDEAS.md
   [Anagram]: Strings/Anagram

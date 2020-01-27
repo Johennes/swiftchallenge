@@ -9,6 +9,8 @@ pandoc \
     -t markdown \
     --reference-links \
     --columns 80 \
+    --table-of-contents \
+    --standalone \
     "$root/README.md.header" \
     "$root/README.md.index" \
     "$root/README.md.footer" > "$root/README.md"
