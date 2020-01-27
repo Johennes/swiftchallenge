@@ -36,6 +36,10 @@ Challenges by Category
 -   [Date Decoding]
 -   [Lenient Array Decoding]
 
+### Combinatorics
+
+-   [Train Connections]
+
 Challenges by Difficulty
 ------------------------
 
@@ -55,7 +59,7 @@ Challenges by Difficulty
 
 ### Hard
 
-None yet
+-   [Train Connections]
 
 License
 -------
@@ -74,3 +78,4 @@ option) any later version.
   [Heterogeneous Date Decoding]: JSON/HeterogeneousDateDecoding
   [Date Decoding]: JSON/DateDecoding
   [Lenient Array Decoding]: JSON/LenientArrayDecoding
+  [Train Connections]: Combinatorics/TrainConnections

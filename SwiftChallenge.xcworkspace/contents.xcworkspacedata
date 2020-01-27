@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:Combinatorics"
+      name = "Combinatorics">
+      <FileRef
+         location = "group:TrainConnections">
+      </FileRef>
+   </Group>
+   <Group
       location = "container:Concurrency"
       name = "Concurrency">
       <FileRef
@@ -49,30 +56,30 @@
       location = "group:COPYING">
    </FileRef>
    <FileRef
-      location = "group:normalize-markdown"
-      assignedFileDataType = "public.bash-script">
-   </FileRef>
-   <FileRef
-      location = "group:regenerate-readme"
-      assignedFileDataType = "public.bash-script">
-   </FileRef>
-   <FileRef
-      location = "group:README.md">
-   </FileRef>
-   <FileRef
       location = "group:IDEAS.md">
    </FileRef>
    <FileRef
-      location = "group:/Users/jmarbach/challenge/README.md.header"
-      assignedFileDataType = "net.daringfireball.markdown">
+      location = "group:normalize-markdown"
+      assignedFileDataType = "public.bash-script">
    </FileRef>
    <FileRef
       location = "group:prettify"
       assignedFileDataType = "public.bash-script">
    </FileRef>
    <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
       location = "group:README.md.footer"
       assignedFileDataType = "net.daringfireball.markdown">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/jmarbach/challenge/README.md.header"
+      assignedFileDataType = "net.daringfireball.markdown">
+   </FileRef>
+   <FileRef
+      location = "group:regenerate-readme"
+      assignedFileDataType = "public.bash-script">
    </FileRef>
    <FileRef
       location = "group:scaffold"
