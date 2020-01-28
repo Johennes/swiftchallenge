@@ -17,7 +17,7 @@ function collect_challenges_by_category {
         echo
         collect_challenges_by_category "$subdir" $((level + 1))
         echo
-    done < <(find "$dir" -type d -mindepth 1 -maxdepth 1 -not -name "*.*")
+    done < <(find "$dir" -type d -mindepth 1 -maxdepth 1 -not -name "*.*" | sort)
 }
 
 function collect_challenges_by_difficulty {

@@ -16,16 +16,9 @@ added. Currently unimplemented ideas are tracked in [IDEAS.md].
 Challenges by Category
 ----------------------
 
-### Strings
+### Combinatorics
 
--   [Anagram]
--   [Reverse]
--   [Auto Correction]
--   [Version Sort]
-
-### Protocols & Subclasses
-
--   [Protocol Dispatch]
+-   [Train Connections]
 
 ### Concurrency
 
@@ -33,13 +26,20 @@ Challenges by Category
 
 ### JSON
 
--   [Heterogeneous Date Decoding]
 -   [Date Decoding]
+-   [Heterogeneous Date Decoding]
 -   [Lenient Array Decoding]
 
-### Combinatorics
+### Protocols & Subclasses
 
--   [Train Connections]
+-   [Protocol Dispatch]
+
+### Strings
+
+-   [Anagram]
+-   [Auto Correction]
+-   [Reverse]
+-   [Version Sort]
 
 Challenges by Difficulty
 ------------------------
@@ -72,13 +72,13 @@ option) any later version.
 
   [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
   [IDEAS.md]: IDEAS.md
-  [Anagram]: Strings/Anagram
-  [Reverse]: Strings/Reverse
-  [Auto Correction]: Strings/AutoCorrection
-  [Version Sort]: Strings/VersionSort
-  [Protocol Dispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
-  [Synchronous Dispatch]: Concurrency/SynchronousDispatch
-  [Heterogeneous Date Decoding]: JSON/HeterogeneousDateDecoding
-  [Date Decoding]: JSON/DateDecoding
-  [Lenient Array Decoding]: JSON/LenientArrayDecoding
   [Train Connections]: Combinatorics/TrainConnections
+  [Synchronous Dispatch]: Concurrency/SynchronousDispatch
+  [Date Decoding]: JSON/DateDecoding
+  [Heterogeneous Date Decoding]: JSON/HeterogeneousDateDecoding
+  [Lenient Array Decoding]: JSON/LenientArrayDecoding
+  [Protocol Dispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
+  [Anagram]: Strings/Anagram
+  [Auto Correction]: Strings/AutoCorrection
+  [Reverse]: Strings/Reverse
+  [Version Sort]: Strings/VersionSort
