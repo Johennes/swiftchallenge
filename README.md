@@ -20,6 +20,7 @@ Challenges by Category
 
 -   [Anagram]
 -   [Reverse]
+-   [Auto Correction]
 -   [Version Sort]
 
 ### Protocols & Subclasses
@@ -51,6 +52,7 @@ Challenges by Difficulty
 
 ### Medium
 
+-   [Auto Correction]
 -   [Heterogeneous Date Decoding]
 -   [Lenient Array Decoding]
 -   [Protocol Dispatch]
@@ -72,6 +74,7 @@ option) any later version.
   [IDEAS.md]: IDEAS.md
   [Anagram]: Strings/Anagram
   [Reverse]: Strings/Reverse
+  [Auto Correction]: Strings/AutoCorrection
   [Version Sort]: Strings/VersionSort
   [Protocol Dispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
   [Synchronous Dispatch]: Concurrency/SynchronousDispatch

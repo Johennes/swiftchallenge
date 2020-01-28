@@ -42,6 +42,9 @@
          location = "group:Anagram">
       </FileRef>
       <FileRef
+         location = "group:AutoCorrection">
+      </FileRef>
+      <FileRef
          location = "group:Reverse">
       </FileRef>
       <FileRef
