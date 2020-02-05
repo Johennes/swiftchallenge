@@ -1,7 +1,7 @@
 SwiftChallenge
 ==============
 
-This is a collection of Swift coding excercises meant to be used for training
+This is a collection of Swift coding exercises meant to be used for training
 and interviewing. Each challenge is contained in its own Swift package and
 includes a README with the problem statement and further instructions. There are
 code skeletons and unit tests in every package that help you to verify your
