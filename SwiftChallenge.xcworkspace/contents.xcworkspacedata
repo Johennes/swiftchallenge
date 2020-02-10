@@ -29,6 +29,13 @@
       </FileRef>
    </Group>
    <Group
+      location = "container:Other"
+      name = "Other">
+      <FileRef
+         location = "group:MeetingOverlap">
+      </FileRef>
+   </Group>
+   <Group
       location = "container:Protocols &amp; Subclasses"
       name = "Protocols &amp; Subclasses">
       <FileRef

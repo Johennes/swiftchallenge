@@ -29,6 +29,10 @@ Challenges by Category
 -   [Heterogeneous Date Decoding]
 -   [Lenient Array Decoding]
 
+### Other
+
+-   [Meeting Overlap]
+
 ### Protocols & Subclasses
 
 -   [Protocol Dispatch]
@@ -54,6 +58,7 @@ Challenges by Difficulty
 -   [Auto Correction]
 -   [Heterogeneous Date Decoding]
 -   [Lenient Array Decoding]
+-   [Meeting Overlap]
 -   [Protocol Dispatch]
 -   [Synchronous Dispatch]
 -   [Version Sort]
@@ -76,6 +81,7 @@ option) any later version.
   [Date Decoding]: JSON/DateDecoding
   [Heterogeneous Date Decoding]: JSON/HeterogeneousDateDecoding
   [Lenient Array Decoding]: JSON/LenientArrayDecoding
+  [Meeting Overlap]: Other/MeetingOverlap
   [Protocol Dispatch]: Protocols%20&%20Subclasses/ProtocolDispatch
   [Anagram]: Strings/Anagram
   [Auto Correction]: Strings/AutoCorrection
