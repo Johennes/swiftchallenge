@@ -10,7 +10,7 @@ import Foundation
 // To check if both strings have the same characters with the same number of
 // occurrences we simply sort and compare them.
 //
-// Time complexity (worst case): O(n log n)
+// Time complexity (worst case): O(n * log(n))
 // Space complexity (worst case): O(n)
 //
 // Here n is the length of the longer of the two strings.
