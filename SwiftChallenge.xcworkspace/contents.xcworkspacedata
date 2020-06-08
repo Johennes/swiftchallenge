@@ -55,6 +55,9 @@
          location = "group:Reverse">
       </FileRef>
       <FileRef
+         location = "group:ReversePolishNotation">
+      </FileRef>
+      <FileRef
          location = "group:VersionSort">
       </FileRef>
    </Group>
