@@ -42,6 +42,7 @@ Challenges by Category
 -   [Anagram]
 -   [Auto Correction]
 -   [Reverse]
+-   [Reverse Polish Notation]
 -   [Version Sort]
 
 Challenges by Difficulty
@@ -60,6 +61,7 @@ Challenges by Difficulty
 -   [Lenient Array Decoding]
 -   [Meeting Overlap]
 -   [Protocol Dispatch]
+-   [Reverse Polish Notation]
 -   [Synchronous Dispatch]
 -   [Version Sort]
 
@@ -86,4 +88,5 @@ option) any later version.
   [Anagram]: Strings/Anagram
   [Auto Correction]: Strings/AutoCorrection
   [Reverse]: Strings/Reverse
+  [Reverse Polish Notation]: Strings/ReversePolishNotation
   [Version Sort]: Strings/VersionSort
