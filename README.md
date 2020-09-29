@@ -1,6 +1,8 @@
 SwiftChallenge
 ==============
 
+*Mirrors: [GitHub] \~ [GitLab]*
+
 This is a collection of Swift coding exercises meant to be used for training and
 interviewing. Each challenge is contained in its own Swift package and includes
 a README with the problem statement and further instructions. There are code
@@ -76,6 +78,8 @@ SwiftChallenge is licensed under the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
 
+  [GitHub]: https://github.com/Johennes/swiftchallenge
+  [GitLab]: https://gitlab.com/cherrypicker/swiftchallenge
   [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
   [IDEAS.md]: IDEAS.md
   [Train Connections]: Combinatorics/TrainConnections
