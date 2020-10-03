@@ -19,13 +19,13 @@
       location = "container:JSON"
       name = "JSON">
       <FileRef
-         location = "group:/Users/jmarbach/challenge/JSON/DateDecoding">
+         location = "group:DateDecoding">
       </FileRef>
       <FileRef
          location = "group:HeterogeneousDateDecoding">
       </FileRef>
       <FileRef
-         location = "group:/Users/jmarbach/challenge/JSON/LenientArrayDecoding">
+         location = "group:LenientArrayDecoding">
       </FileRef>
    </Group>
    <Group
@@ -87,7 +87,7 @@
       assignedFileDataType = "net.daringfireball.markdown">
    </FileRef>
    <FileRef
-      location = "group:/Users/jmarbach/challenge/README.md.header"
+      location = "group:README.md.header"
       assignedFileDataType = "net.daringfireball.markdown">
    </FileRef>
    <FileRef

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1200"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Anagram"
+               BuildableName = "Anagram"
+               BlueprintName = "Anagram"
+               ReferencedContainer = "container:Strings/Anagram">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AutoCorrection"
+               BuildableName = "AutoCorrection"
+               BlueprintName = "AutoCorrection"
+               ReferencedContainer = "container:Strings/AutoCorrection">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DateDecoding"
+               BuildableName = "DateDecoding"
+               BlueprintName = "DateDecoding"
+               ReferencedContainer = "container:JSON/DateDecoding">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "HeterogeneousDateDecoding"
+               BuildableName = "HeterogeneousDateDecoding"
+               BlueprintName = "HeterogeneousDateDecoding"
+               ReferencedContainer = "container:JSON/HeterogeneousDateDecoding">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LenientArrayDecoding"
+               BuildableName = "LenientArrayDecoding"
+               BlueprintName = "LenientArrayDecoding"
+               ReferencedContainer = "container:JSON/LenientArrayDecoding">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MeetingOverlap"
+               BuildableName = "MeetingOverlap"
+               BlueprintName = "MeetingOverlap"
+               ReferencedContainer = "container:Other/MeetingOverlap">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ProtocolDispatch"
+               BuildableName = "ProtocolDispatch"
+               BlueprintName = "ProtocolDispatch"
+               ReferencedContainer = "container:Protocols &amp; Subclasses/ProtocolDispatch">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "Reverse"
+               BuildableName = "Reverse"
+               BlueprintName = "Reverse"
+               ReferencedContainer = "container:Strings/Reverse">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ReversePolishNotation"
+               BuildableName = "ReversePolishNotation"
+               BlueprintName = "ReversePolishNotation"
+               ReferencedContainer = "container:Strings/ReversePolishNotation">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SynchronousDispatch"
+               BuildableName = "SynchronousDispatch"
+               BlueprintName = "SynchronousDispatch"
+               ReferencedContainer = "container:Concurrency/SynchronousDispatch">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TrainConnections"
+               BuildableName = "TrainConnections"
+               BlueprintName = "TrainConnections"
+               ReferencedContainer = "container:Combinatorics/TrainConnections">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "VersionSort"
+               BuildableName = "VersionSort"
+               BlueprintName = "VersionSort"
+               ReferencedContainer = "container:Strings/VersionSort">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AnagramTests"
+               BuildableName = "AnagramTests"
+               BlueprintName = "AnagramTests"
+               ReferencedContainer = "container:Strings/Anagram">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AutoCorrectionTests"
+               BuildableName = "AutoCorrectionTests"
+               BlueprintName = "AutoCorrectionTests"
+               ReferencedContainer = "container:Strings/AutoCorrection">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DateDecodingTests"
+               BuildableName = "DateDecodingTests"
+               BlueprintName = "DateDecodingTests"
+               ReferencedContainer = "container:JSON/DateDecoding">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "HeterogeneousDateDecodingTests"
+               BuildableName = "HeterogeneousDateDecodingTests"
+               BlueprintName = "HeterogeneousDateDecodingTests"
+               ReferencedContainer = "container:JSON/HeterogeneousDateDecoding">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "LenientArrayDecodingTests"
+               BuildableName = "LenientArrayDecodingTests"
+               BlueprintName = "LenientArrayDecodingTests"
+               ReferencedContainer = "container:JSON/LenientArrayDecoding">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MeetingOverlapTests"
+               BuildableName = "MeetingOverlapTests"
+               BlueprintName = "MeetingOverlapTests"
+               ReferencedContainer = "container:Other/MeetingOverlap">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ProtocolDispatchTests"
+               BuildableName = "ProtocolDispatchTests"
+               BlueprintName = "ProtocolDispatchTests"
+               ReferencedContainer = "container:Protocols &amp; Subclasses/ProtocolDispatch">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ReverseTests"
+               BuildableName = "ReverseTests"
+               BlueprintName = "ReverseTests"
+               ReferencedContainer = "container:Strings/Reverse">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ReversePolishNotationTests"
+               BuildableName = "ReversePolishNotationTests"
+               BlueprintName = "ReversePolishNotationTests"
+               ReferencedContainer = "container:Strings/ReversePolishNotation">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SynchronousDispatchTests"
+               BuildableName = "SynchronousDispatchTests"
+               BlueprintName = "SynchronousDispatchTests"
+               ReferencedContainer = "container:Concurrency/SynchronousDispatch">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "TrainConnectionsTests"
+               BuildableName = "TrainConnectionsTests"
+               BlueprintName = "TrainConnectionsTests"
+               ReferencedContainer = "container:Combinatorics/TrainConnections">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "VersionSortTests"
+               BuildableName = "VersionSortTests"
+               BlueprintName = "VersionSortTests"
+               ReferencedContainer = "container:Strings/VersionSort">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "Anagram"
+            BuildableName = "Anagram"
+            BlueprintName = "Anagram"
+            ReferencedContainer = "container:Strings/Anagram">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
