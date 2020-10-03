@@ -1,6 +1,8 @@
 SwiftChallenge
 ==============
 
+*Mirrors: [GitHub] \~ [GitLab]*
+
 This is a collection of Swift coding exercises meant to be used for training and
 interviewing. Each challenge is contained in its own Swift package and includes
 a README with the problem statement and further instructions. There are code
@@ -12,5 +14,7 @@ repository.
 Most of all, have fun and [let me know] about ideas for further challenges to be
 added. Currently unimplemented ideas are tracked in [IDEAS.md].
 
+  [GitHub]: https://github.com/Johennes/swiftchallenge
+  [GitLab]: https://gitlab.com/cherrypicker/swiftchallenge
   [let me know]: mailto:n0-0ne+swiftchallenge@mailbox.org
   [IDEAS.md]: IDEAS.md

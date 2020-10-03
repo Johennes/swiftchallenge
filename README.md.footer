@@ -1,3 +1,48 @@
+Contributing
+------------
+
+Want to contribute? Great!
+
+### Git(?=\$\|Hub\|Lab)
+
+The git setup is a bit unusual in that I'm self-hosting the main repository with
+mirrors on \[GitHub\] and \[GitLab\]. You cannot engage on the main repository
+directly because that would require me to set up a user account for you on my
+self-hosted instance first. However, you can open issues or pull / merge
+requests on one of the mirrors and I'll sync things with the main repository. If
+you're old-school, you can also just send me patches via email. 😄
+
+### Creating a New Challenge
+
+#### Create the Package
+
+To create a package for a new challenge, run the scaffolding script, e.g.
+
+    ./scaffold Strings/ReversePolishNotation
+
+#### Add the Package to the Workspace
+
+Once you have the package, add it to the workspace. Since Xcode tends to mess up
+groups and paths, this step is best done by manually editing
+`SwiftChallenge.xcworkspace/contents.xcworkspacedata`.
+
+#### Update the Schemes
+
+Add a dedicated shared scheme for building and testing your package. Also add
+the tests in the *All* scheme.
+
+#### Flesh out the Package Contents
+
+Every package should contain a problem statement in its README, at least one
+*documented* solution and a battery of unit tests for verification.
+
+#### Normalise Markdown and Regenerate the Main README
+
+We use pandoc to enforce a consistent markdown format across the project. Run
+the `normalize-markdown` script to reformat all READMEs. Afterwards regenerate
+the main README by running the `regenerate-readme` script. This will
+automatically list your new package.
+
 License
 -------
 
