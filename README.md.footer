@@ -1,13 +1,24 @@
 Contributing
 ------------
 
+Want to contribute? Great!
+
+### Git(?=\$\|Hub\|Lab)
+
+The git setup is a bit unusual in that I'm self-hosting the main repository with
+mirrors on [GitHub] and [GitLab]. You cannot engage on the main repository
+directly because that would require me to set up a user account for you on my
+self-hosted instance first. However, you can open issues or pull / merge
+requests on one of the mirrors and I'll sync things with the main repository. If
+you're old-school, you can also just send me patches via email. 😄
+
 ### Creating a New Challenge
 
 #### Create the Package
 
 To create a package for a new challenge, run the scaffolding script, e.g.
 
-    ./scaffold Strings/ReversePolishNotation
+    ./scaffold Strings/WarpSort
 
 #### Add the Package to the Workspace
 
@@ -38,3 +49,6 @@ License
 SwiftChallenge is licensed under the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or (at your
 option) any later version.
+
+  [GitHub]: https://github.com/Johennes/swiftchallenge
+  [GitLab]: https://gitlab.com/cherrypicker/swiftchallenge

@@ -77,7 +77,7 @@ Want to contribute? Great!
 ### Git(?=\$\|Hub\|Lab)
 
 The git setup is a bit unusual in that I'm self-hosting the main repository with
-mirrors on \[GitHub\] and \[GitLab\]. You cannot engage on the main repository
+mirrors on [GitHub] and [GitLab]. You cannot engage on the main repository
 directly because that would require me to set up a user account for you on my
 self-hosted instance first. However, you can open issues or pull / merge
 requests on one of the mirrors and I'll sync things with the main repository. If
@@ -89,7 +89,7 @@ you're old-school, you can also just send me patches via email. 😄
 
 To create a package for a new challenge, run the scaffolding script, e.g.
 
-    ./scaffold Strings/ReversePolishNotation
+    ./scaffold Strings/WarpSort
 
 #### Add the Package to the Workspace
 
@@ -135,3 +135,5 @@ option) any later version.
   [Reverse]: Strings/Reverse
   [Reverse Polish Notation]: Strings/ReversePolishNotation
   [Version Sort]: Strings/VersionSort
+  [GitHub]: https://github.com/Johennes/swiftchallenge
+  [GitLab]: https://gitlab.com/cherrypicker/swiftchallenge
