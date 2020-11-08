@@ -107,9 +107,13 @@ import XCTest
 
 final class ChallengeTests: XCTestCase {
 
-//    func test() {
+    static var allTests = [
+        ("test", test)
+    ]
+
+    func test() {
 //        runTest(solution)
-//    }
+    }
 
 }
 
@@ -125,6 +129,10 @@ import XCTest
 @testable import ${name}
 
 final class SolutionTests: XCTestCase {
+
+    static var allTests = [
+        ("test_?", test_?)
+    ]
 
     func test_?() {
         runTest(solution_?)
