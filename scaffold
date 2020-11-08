@@ -104,7 +104,7 @@ import Foundation
 import XCTest
 @testable import ${name}
 
-class ChallengeTests: XCTestCase {
+final class ChallengeTests: XCTestCase {
 
 //    func test() {
 //        runTest(solution)
@@ -135,9 +135,10 @@ EOM
 # LinuxMain.swift
 cat << EOM > "$dest/Tests/LinuxMain.swift"
 import XCTest
-import ${name}Tests
+@testable import ${name}Tests
 
-var tests = [XCTestCaseEntry]()
-tests += ${name}Tests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])
 EOM

@@ -4,6 +4,11 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
+    static var allTests = [
+        ("test_oneLine", test_oneLine),
+        ("test_iterating", test_iterating)
+    ]
+
     func test_oneLine() {
         runTest(isReverse_oneLine)
     }

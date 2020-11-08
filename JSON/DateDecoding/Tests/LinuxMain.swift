@@ -1,6 +1,7 @@
 import XCTest
-import DateDecodingTests
+@testable import DateDecodingTests
 
-var tests = [XCTestCaseEntry]()
-tests += DateDecodingTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

@@ -1,6 +1,7 @@
 import XCTest
-import TrainConnectionsTests
+@testable import TrainConnectionsTests
 
-var tests = [XCTestCaseEntry]()
-tests += TrainConnectionsTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

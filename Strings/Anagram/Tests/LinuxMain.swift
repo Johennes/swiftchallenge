@@ -1,6 +1,7 @@
 import XCTest
-import AnagramTests
+@testable import AnagramTests
 
-var tests = [XCTestCaseEntry]()
-tests += AnagramTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

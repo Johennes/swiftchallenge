@@ -4,6 +4,11 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
+    static var allTests = [
+        ("test_oneLine", test_oneLine),
+        ("test_counting", test_counting)
+    ]
+
     func test_oneLine() {
         runTest(isAnagram_oneLine)
     }

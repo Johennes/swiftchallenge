@@ -4,7 +4,11 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
-    func test_1() {
+    static var allTests = [
+        ("test_conditionalIteration", test_conditionalIteration)
+    ]
+
+    func test_conditionalIteration() {
         runTest(canAutocorrect_conditionalIteration)
     }
 

@@ -5,7 +5,7 @@ set -euo pipefail
 while read -r package_file; do
   dir=$(dirname "$package_file")
   pushd "$dir"
-  swift package clean
   swift build
+  swift test
   popd
 done < <(find . -type f -name Package.swift)

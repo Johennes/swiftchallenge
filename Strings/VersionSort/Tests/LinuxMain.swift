@@ -1,6 +1,7 @@
 import XCTest
-import VersionSortTests
+@testable import VersionSortTests
 
-var tests = [XCTestCaseEntry]()
-tests += VersionSortTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

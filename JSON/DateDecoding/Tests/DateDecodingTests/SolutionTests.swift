@@ -4,6 +4,11 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
+    static var allTests = [
+        ("test_dateDecodingStrategy", test_dateDecodingStrategy),
+        ("test_computedProperty", test_computedProperty)
+    ]
+
     func test_dateDecodingStrategy() {
         runTest(decode_dateDecodingStrategy)
     }

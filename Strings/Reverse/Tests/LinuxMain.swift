@@ -1,6 +1,7 @@
 import XCTest
-import ReverseTests
+@testable import ReverseTests
 
-var tests = [XCTestCaseEntry]()
-tests += ReverseTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

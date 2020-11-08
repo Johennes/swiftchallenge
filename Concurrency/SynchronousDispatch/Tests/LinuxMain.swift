@@ -1,6 +1,7 @@
 import XCTest
-import SynchronousDispatchTests
+@testable import SynchronousDispatchTests
 
-var tests = [XCTestCaseEntry]()
-tests += SynchronousDispatchTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

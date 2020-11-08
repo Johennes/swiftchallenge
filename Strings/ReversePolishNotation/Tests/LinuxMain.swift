@@ -1,6 +1,7 @@
 import XCTest
-import ReversePolishNotationTests
+@testable import ReversePolishNotationTests
 
-var tests = [XCTestCaseEntry]()
-tests += ReversePolishNotationTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

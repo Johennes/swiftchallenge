@@ -1,6 +1,7 @@
 import XCTest
-import MeetingOverlapTests
+@testable import MeetingOverlapTests
 
-var tests = [XCTestCaseEntry]()
-tests += MeetingOverlapTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

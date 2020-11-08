@@ -1,6 +1,7 @@
 import XCTest
-import AutoCorrectionTests
+@testable import AutoCorrectionTests
 
-var tests = [XCTestCaseEntry]()
-tests += AutoCorrectionTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

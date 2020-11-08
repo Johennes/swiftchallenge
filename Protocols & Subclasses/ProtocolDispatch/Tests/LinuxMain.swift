@@ -1,6 +1,7 @@
 import XCTest
-import ProtocolDispatchTests
+@testable import ProtocolDispatchTests
 
-var tests = [XCTestCaseEntry]()
-tests += ProtocolDispatchTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

@@ -2,35 +2,45 @@ import Foundation
 import XCTest
 @testable import ProtocolDispatch
 
-class ChallengeTests: XCTestCase {
+final class ChallengeTests: XCTestCase {
 
-//    func test1() {
+    static var allTests = [
+        ("test1", test1),
+        ("test2", test2),
+        ("test3", test3),
+        ("test4", test4),
+        ("test5", test5),
+        ("test6", test6),
+        ("test7", test7)
+    ]
+
+    func test1() {
 //        runTest(solution1, challenge1)
-//    }
+    }
 
-//    func test2() {
+    func test2() {
 //        runTest(solution2, challenge2)
-//    }
+    }
 
-//    func test3() {
+    func test3() {
 //        runTest(solution3, challenge3)
-//    }
+    }
 
-//    func test4() {
+    func test4() {
 //        runTest(solution4, challenge4)
-//    }
+    }
 
-//    func test5() {
+    func test5() {
 //        runTest(solution5, challenge5)
-//    }
+    }
 
-//    func test6() {
+    func test6() {
 //        runTest(solution6, challenge6)
-//    }
+    }
 
-//    func test7() {
+    func test7() {
 //        runTest(solution7, challenge7)
-//    }
+    }
 
 }
 

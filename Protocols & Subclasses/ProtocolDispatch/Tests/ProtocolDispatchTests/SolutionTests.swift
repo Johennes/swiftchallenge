@@ -4,6 +4,16 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
+    static var allTests = [
+        ("test1_constant", test1_constant),
+        ("test2_constant", test2_constant),
+        ("test3_constant", test3_constant),
+        ("test4_constant", test4_constant),
+        ("test5_constant", test5_constant),
+        ("test6_constant", test6_constant),
+        ("test7_constant", test7_constant)
+    ]
+
     func test1_constant() {
         runTest(solution1_constant, challenge1)
     }

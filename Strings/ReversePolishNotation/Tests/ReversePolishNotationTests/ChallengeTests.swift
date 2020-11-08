@@ -2,11 +2,15 @@ import Foundation
 import XCTest
 @testable import ReversePolishNotation
 
-class ChallengeTests: XCTestCase {
+final class ChallengeTests: XCTestCase {
 
-//    func test() {
+    static var allTests = [
+        ("test", test)
+    ]
+
+    func test() {
 //        runTest(solution)
-//    }
+    }
 
 }
 

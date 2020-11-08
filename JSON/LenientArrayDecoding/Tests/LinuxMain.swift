@@ -1,6 +1,7 @@
 import XCTest
-import LenientArrayDecodingTests
+@testable import LenientArrayDecodingTests
 
-var tests = [XCTestCaseEntry]()
-tests += LenientArrayDecodingTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(ChallengeTests.allTests),
+    testCase(SolutionTests.allTests)
+])

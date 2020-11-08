@@ -4,6 +4,11 @@ import XCTest
 
 final class SolutionTests: XCTestCase {
 
+    static var allTests = [
+        ("test_stack", test_stack),
+        ("test_recursive", test_recursive)
+    ]
+
     func test_stack() throws {
         try runTest(evaluate_stack)
     }
