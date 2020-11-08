@@ -6,6 +6,10 @@ interviewing. Each challenge is contained in its own Swift package and includes
 a README with the problem statement and further instructions. There are code
 skeletons and unit tests in every package that help you to verify your solution.
 
+An Xcode workspace is included for convenience. Since all code is contained in
+plain dependency-less Swift packages though, everything can be built, run and
+tested on both macOS and Linux.
+
 Check out the index of challenges below or simply browse the folders in the
 repository.
 
