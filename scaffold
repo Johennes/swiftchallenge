@@ -16,12 +16,12 @@ if [[ -d "$dest" ]]; then
 fi
 
 # Folders
-mkdir -p "$dest/Sources/$name"
+mkdir -p "$dest/Sources/${name}"
 mkdir -p "$dest/Tests/${name}Tests"
 
 # README.md
 cat << EOM > "$dest/README.md"
-$(echo "$name" | "$root/prettify")
+$(echo "${name}" | "$root/prettify")
 =======
 
 Difficulty: ?
@@ -42,9 +42,9 @@ To run unit tests that validate your code, uncomment the test method in
 
 To view selected solutions open [Solutions.swift].
 
-  [Challenge.swift]: Sources/$name/Challenge.swift
+  [Challenge.swift]: Sources/${name}/Challenge.swift
   [ChallengeTests.swift]: Tests/${name}Tests/ChallengeTests.swift
-  [Solutions.swift]: Sources/$name/Solutions.swift
+  [Solutions.swift]: Sources/${name}/Solutions.swift
 EOM
 
 # Package.swift
@@ -54,26 +54,26 @@ cat << EOM > "$dest/Package.swift"
 import PackageDescription
 
 let package = Package(
-    name: "$name",
+    name: "${name}",
     products: [
         .library(
-            name: "$name",
-            targets: ["$name"])
+            name: "${name}",
+            targets: ["${name}"])
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "$name",
+            name: "${name}",
             dependencies: []),
         .testTarget(
             name: "${name}Tests",
-            dependencies: ["$name"])
+            dependencies: ["${name}"])
     ]
 )
 EOM
 
 # Challenge.swift
-cat << EOM > "$dest/Sources/$name/Challenge.swift"
+cat << EOM > "$dest/Sources/${name}/Challenge.swift"
 import Foundation
 
 //func solution() {
@@ -82,7 +82,7 @@ import Foundation
 EOM
 
 # Solutions.swift
-cat << EOM > "$dest/Sources/$name/Solutions.swift"
+cat << EOM > "$dest/Sources/${name}/Solutions.swift"
 import Foundation
 
 // MARK: - General Notes
@@ -102,7 +102,7 @@ EOM
 cat << EOM > "$dest/Tests/${name}Tests/ChallengeTests.swift"
 import Foundation
 import XCTest
-@testable import $name
+@testable import ${name}
 
 class ChallengeTests: XCTestCase {
 
@@ -121,7 +121,7 @@ EOM
 cat << EOM > "$dest/Tests/${name}Tests/SolutionTests.swift"
 import Foundation
 import XCTest
-@testable import $name
+@testable import ${name}
 
 final class SolutionTests: XCTestCase {
 
@@ -130,4 +130,14 @@ final class SolutionTests: XCTestCase {
     }
 
 }
+EOM
+
+# LinuxMain.swift
+cat << EOM > "$dest/Tests/LinuxMain.swift"
+import XCTest
+import ${name}Tests
+
+var tests = [XCTestCaseEntry]()
+tests += ${name}Tests.allTests()
+XCTMain(tests)
 EOM
