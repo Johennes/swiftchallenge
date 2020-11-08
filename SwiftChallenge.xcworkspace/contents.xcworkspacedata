@@ -98,4 +98,8 @@
       location = "group:scaffold"
       assignedFileDataType = "public.bash-script">
    </FileRef>
+   <FileRef
+      location = "group:test-all"
+      assignedFileDataType = "public.bash-script">
+   </FileRef>
 </Workspace>
