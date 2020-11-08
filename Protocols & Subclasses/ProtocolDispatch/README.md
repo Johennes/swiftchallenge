@@ -93,8 +93,9 @@ Further Instructions
 To start working on this challenge open [Challenge.swift] and uncomment the code
 skeletons.
 
-To run unit tests that validate your code, uncomment the test methods in
-[ChallengeTests.swift] and hit `CMD + U`.
+To run unit tests that validate your code, uncomment the body of the test
+methods in [ChallengeTests.swift] and hit `CMD + U` in Xcode. On Linux you can
+run the tests by executing `swift test` in the package directory.
 
 To view the solutions open [Solutions.swift].
 
